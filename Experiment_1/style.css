@@ -1,0 +1,39 @@
+header {
+    padding: 20px;
+    padding-top: 30px;
+    background-color: rgb(147, 147, 147);
+}
+
+#header-content {
+    font-size: large;
+    padding: 10px;
+    
+    transition: background-color 0.3s;
+    }
+
+    #header-content:hover {
+        background-color: #e0e0e0;
+}
+
+section {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hr-style {
+    border: 0;
+    height: 4px;
+    background: linear-gradient(to right, transparent, #5f6c71, transparent);
+    margin: 5px 0;
+}
+
+footer {
+    padding: 20px;
+}

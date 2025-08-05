@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My WebPage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header id="profile-header">
+        <a id="header-content" href="#profile-section">About</a>
+        <a id="header-content" href="#skills-section">Skills</a>
+        <a id="header-content" href="#projects-section">Projects</a>
+    </header>
+    <main id="main-content">
+        <section id="profile-section">
+            <img id="profile-picture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/340px-Default_pfp.svg.png" alt="Profile Picture" width="100" height="120">
+            <h1>Premdeep Singh</h1>
+            <nav id="social-nav">
+                <ul id="social-list">
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="https://github.com/Premdeep-Singh">GitHub</a></li>
+                    <li><a href="https://leetcode.com/u/premdeep1911/">LeetCode</a></li>
+                </ul>
+            </nav>        
+            <p>This is a simple webpage to demonstrate HTML structure.</p>
+        </section>
+        <hr id="hr-1" class="hr-style">
+        <section id="skills-section">
+            <h2 id="skills-title">Skills</h2>
+            <ul id="skills-list">
+                <li id="skill-html">HTML</li>
+                <li id="skill-css">CSS</li>
+                <li id="skill-js">JavaScript</li>
+                <li id="skill-python">Python</li>
+                <li id="skill-java">Java</li>
+                <li id="skill-sql">SQL</li>
+            </ul>
+        </section>
+        <hr id="hr-2" class="hr-style">
+        <section id="projects-section">
+            <h2 id="projects-title">Projects</h2>
+            <ol id="projects-list" type="I">
+                <li id="project-object-tracking">
+                    <h3 id="object-tracking-title"><strong>Object Tracking</strong></h3>
+                    <p id="object-tracking-desc">This Project was based on computer vision. The objective was to track and dectect object found on screen.</p>
+                    <p id="object-tracking-tech">Technologies used: OpenCV, Python</p>
+                </li>
+                <li id="project-family-tree">
+                    <h3 id="family-tree-title">Family Tree Generator</h3>
+                    <p id="family-tree-desc">An application that allows the users to add members to create a family tree.</p>
+                    <p id="family-tree-tech">Technologies used: C#, WPF</p>    
+                </li>
+                <li id="project-rl-ai">
+                    <h3 id="rl-ai-title">Reinforced Learning AI</h3>
+                    <p id="rl-ai-desc">An AI trainded to play the classic snake game.</p>
+                    <p id="rl-ai-tech">Technologies used: Python, PyTorch, PyGame</p>    
+                </li>
+            </ol>
+        </section>
+        <hr id="hr-3" class="hr-style">   
+        <section id="qualification-section">
+            <h2 id="qualification-title">Qualification</h2>
+            <table id="qualification-table" border="1">
+                <tr id="qualification-header-row">
+                    <th id="degree-header">Degree</th>
+                    <th id="university-header">University</th>
+                    <th id="year-header">Year of Graduation</th>
+                </tr>
+                <tr id="row-10th">
+                    <td id="degree-10th">10th</td>
+                    <td id="university-10th">Government High School, Punjab</td>
+                    <td id="year-10th">2021</td>
+                </tr>
+                <tr id="row-12th">
+                    <td id="degree-12th">12th</td>
+                    <td id="university-12th">Government High School, Punjab</td>
+                    <td id="year-12th">2023</td>
+                </tr>
+                <tr id="row-btech">
+                    <td id="degree-btech">B.Tech in Computer Science</td>
+                    <td id="university-btech">Chandigarh University</td>
+                    <td id="year-btech">2027</td>
+                </tr>
+            </table>
+        </section>
+        <hr id="hr-4" class="hr-style">
+        <section id="contact-section">
+            <h2 id="contact-title">Contact Me</h2>
+            <form id="contact-form" action="script.js" method="post">
+                <label id="label-name" for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label id="label-email" for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label id="label-message" for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                <input id="submit-btn" type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        <p id="footer-contact">
+            Contact: <a id="footer-phone" href="#">7957482385</a><br>
+            Email: <a id="footer-email" href="#">test@mail.com</a> 
+        </p>    
+        <p id="footer-copyright">
+            &copy; 2025 My WebPage, <a id="back-to-top" href="#">Back to top</a>
+        </p>
+    </footer>
+</body>
+</html>
